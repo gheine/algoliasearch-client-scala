@@ -66,6 +66,9 @@ trait GetDsl {
 
     def userID(userID: String) = GetUserIDDefinition(userID)
 
+    // Personalization
+    def personalizationStrategy() = GetPersonalizationStrategyDefinition()
+
   }
 
   implicit object GetObjectDefinitionExecutable
